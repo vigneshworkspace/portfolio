@@ -6,7 +6,7 @@ import FadeInSection from '../animations/FadeInSection';
 
 export default function HeroSection() {
     return (
-        <section id="home" className="min-h-screen flex flex-col justify-center relative">
+<section id="home" className="flex flex-col justify-center relative">
             <div className="responsive-padding relative z-10 full-width-container">
               <FadeInSection>
                   <h1 className="responsive-heading font-headline tracking-widest uppercase font-bold">
@@ -20,10 +20,10 @@ export default function HeroSection() {
                </FadeInSection>
                 <FadeInSection>
                   <div className="mt-16 flex flex-col sm:flex-row justify-start gap-8">
-                      <Button asChild size="lg" className="font-headline uppercase responsive-text tracking-widest px-12 py-8 h-auto">
+                      <Button asChild size="default" className="font-headline uppercase responsive-text tracking-widest px-6 py-4 h-auto">
                           <Link href="#projects">View Projects</Link>
                       </Button>
-                       <Button asChild variant="outline" size="lg" className="font-headline uppercase responsive-text tracking-widest px-12 py-8 h-auto">
+                       <Button asChild variant="outline" size="default" className="font-headline uppercase responsive-text tracking-widest px-6 py-4 h-auto">
                           <Link href="#contact">Get In Touch</Link>
                       </Button>
                   </div>

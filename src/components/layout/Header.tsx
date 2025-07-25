@@ -78,7 +78,7 @@ export default function Header() {
             isScrolled ? "border-b border-border shadow-sm" : "border-b border-transparent"
         )}>
             <div className="full-width-container">
-                <nav className="flex justify-between items-center h-32">
+<nav className="flex justify-between items-center h-20">
                     <Link href="#home" className="font-logo responsive-heading font-bold tracking-tight group">
                         V<span className="text-primary group-hover:animate-pulse">AI</span>D
                     </Link>
